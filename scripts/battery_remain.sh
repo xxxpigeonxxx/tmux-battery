@@ -27,8 +27,6 @@ print_battery_remain() {
 }
 
 main() {
-	if battery_discharging; then
-		print_battery_remain
-	fi
+	print_battery_remain
 }
 main
